@@ -1,0 +1,77 @@
+#menü{
+    text-align: center;
+    background-color: rgb(139, 87, 8);
+}
+#menü ul li{
+    display: inline;
+    padding: 10px;
+    line-height: 50px;
+}
+#tartalom{
+    background-color: rgb(100, 55, 18);
+min-height: calc(100vh - 50px);
+margin: auto;
+padding-top: 50px;
+max-width: 700px;
+border: 10px solid rgb(121, 78, 22);
+opacity: 0.9;
+border-radius: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(75, 48, 14);
+    }
+    :root{
+        --hatter:#8C7B65;
+        --menu:#0D0D0D;
+        --feher:white;
+    }
+    a{
+       color:var(--feher)
+    }
+    img{
+        width: 300px;
+        height: 300px;
+        left: 200px;
+        position: relative;
+    }
+    p{
+        text-align: justify;
+     font-size: large;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding: 30px;
+    }
+    h1{
+        text-align: center;
+    }
+    #valamigomb{
+        top: 5px;
+        position: relative;
+        left: 140px;
+    }
+    #wiki{
+width: 80px;
+height: 80px;
+left: 300px;
+position: relative;
+    }
+    #kicsi{
+        height: 200px;
+    }
+    li{
+        font-size: 25px;
+    }
+    span{
+        font-weight: 700;
+    }
+    #you{
+        height: 150px;
+        position: relative;
+        top: -150px;
+        float: left;
+    }
+body{
+    background-image: url(hattersajt.jpg);
+    background-repeat: round;
+}
